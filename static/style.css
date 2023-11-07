@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    height: 10vh;
+    /* background-color: black; */
+}
+#navbar ul 
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+#navbar li
+{
+    list-style: none;
+    color: white;
+    padding: 0px 20px ;
+    padding: 19px 66px;
+    font-size: 20px;
+    /* justify-content: center; */
+}
+#navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+    /* background-color: bisque; */
+    /* background-color: #ff0062; */
+    background-color: #2d3e32c4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
+.container{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    /* background: content-box radial-gradient(crimson, skyblue);  */
+    background: no-repeat url("../static/dance_pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    font-size: 65px;
+    /* opacity: 0.5; */
+    
+
+}
+.container p 
+{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 45%;
+    color: white;
+    z-index: 2;
+
+}
+
+.mission{
+    color: white;
+    /* display: inline-block; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 60vh;
+    background: content-box radial-gradient(rgba(220, 20, 60, 0.34), skyblue); 
+    color: white;
+    /* font-size: 30px; */
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0px;
+
+}
+
+
+.cards{
+    display: inline-flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    margin: 2px;
+}
+
+
+.card-item{
+       display: inline;
+       flex-direction: row;
+       margin: 6px 12px;
+       border: 2px solid red;
+       width: 295px;
+       height: 190px;
+       background-color: black;
+       overflow: hidden;
+ }
+ 
+ .cd{
+     width: 295px;
+     height: 180px;
+
+ }
+
+ .card-item img{
+    padding: 14px 0 0 0;
+    
+ }
+
+ .content
+ {
+    position: relative;
+    bottom: 105%;
+    font-size: 1.5rem;
+    padding: 2px 0 0 0;
+}
+ 
+ .my-2{
+     margin: 20px 0;
+ }
+
+
+.response{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 60vh;
+    /* background: content-box radial-gradient(rgb(87, 20, 220), skyblue);  */
+    background: content-box radial-gradient(#fefeff, skyblue);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.sponcer{
+    display: block;
+    height: 120px;
+    width: 100vw;
+    margin: 20px;
+}
+.sponcer img 
+{
+    width: 12%;
+    height: 78%;
+    margin: 3px;
+}
+
+footer{
+    height: 10vh;
+    width: 100vw;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+
+}

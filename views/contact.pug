@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    style
+        include ../static/contactStyle.css
+        include ../static/style.css
+        
+    <!-- //- <!-- <link rel="stylesheet" href=" ../static/contactStyle.css">   -->
+    <!-- //- It will also Work -->
+
+</head>
+<body>
+
+
+   <header>
+    <nav id="navbar">
+      <ul>
+        <div class="logo">
+          <img src="../static/danceing_girl.png" alt="">
+        </div>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Services</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+   </header>
+
+     
+     
+     <div class="container1">
+        <div class="heading">
+            <h2>Contact Us</h2>
+        </div>
+     
+        <form action="/contact" method="post" class="myForm">
+            <input type="text" class="myInput" name="name" placeholder="Enter Your Name">
+            <input type="phone" name="phone" id="" class="myInput" placeholder="Enter Your Phone Number">
+            <input type="email" class="myInput" name="email" placeholder="Enter Your Email">
+            <input type="text" class="myInput" name="address" placeholder="Enter You Address">
+            <input type="text" class="myInput" name="desc" placeholder="Enter You Concern">
+            <button class="btn">Submit</button>
+        </form>
+     </div>
+    
+</body>
+</html>
